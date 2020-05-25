@@ -1,0 +1,149 @@
+QWidget#MainWindow {
+                border: 1px solid rgb(50, 50, 50);
+                background: rgb(50, 50, 50);
+}
+
+
+
+QTabWidget::pane {
+                border: none;
+                border-top: 3px solid rgb(0, 160, 230);
+                background: rgb(57, 58, 60);
+}
+QTabWidget::tab-bar {
+                border: none;
+}
+QTabBar::tab {
+                border: none;
+                border-top-left-radius: 4px;
+                border-top-right-radius: 4px;
+                color: rgb(175, 175, 175);
+                background: rgb(255, 255, 255, 30);
+                height: 28px;
+                min-width: 85px;
+                margin-right: 5px;
+                padding-left: 5px;
+                padding-right: 5px;
+}
+QTabBar::tab:hover {
+                background: rgb(255, 255, 255, 40);
+}
+QTabBar::tab:selected {
+                color: white;
+                background: rgb(0, 160, 230);
+}
+
+QTabWidget#tabWidget::pane {
+        border: 1px solid rgb(45, 45, 45);
+        background: rgb(57, 58, 60);
+        margin-top: -1px;
+}
+QTabBar#tabBar::tab {
+        border: 1px solid rgb(45, 45, 45);
+        border-bottom: none;
+        background: transparent;
+}
+QTabBar#tabBar::tab:hover {
+        color: white;
+}
+QTabBar#tabBar::tab:selected {
+        color: white;
+        background: rgb(57, 58, 60);
+}
+
+QCheckBox{
+        spacing: 5px;
+}
+QCheckBox:enabled{
+        color: rgb(175, 175, 175);
+}
+QCheckBox:enabled:hover{
+        color: rgb(200, 200, 200);
+}
+QCheckBox:!enabled{
+        color: rgb(155, 155, 155);
+}
+QCheckBox::indicator {
+        width: 20px;
+        height: 20px;
+}
+QRadioButton{
+        spacing: 5px;
+}
+QRadioButton:enabled{
+        color: rgb(175, 175, 175);
+}
+QRadioButton:enabled:hover{
+        color: rgb(200, 200, 200);
+}
+QRadioButton:!enabled{
+        color: rgb(155, 155, 155);
+}
+
+QLineEdit {
+        border-radius: 4px;
+        height: 25px;
+        border: 1px solid rgb(100, 100, 100);
+        background: rgb(72, 72, 73);
+}
+QLineEdit:enabled {
+        color: rgb(175, 175, 175);
+}
+QLineEdit:enabled:hover, QLineEdit:enabled:focus {
+        color: rgb(230, 230, 230);
+}
+QLineEdit:!enabled {
+        color: rgb(155, 155, 155);
+}
+
+QTextEdit {
+        border: 1px solid rgb(45, 45, 45);
+        color: rgb(175, 175, 175);
+        background: rgb(57, 58, 60);
+}
+
+QPushButton{
+                border-radius: 4px;
+                border: none;
+                width: 55px;
+                height: 25px;
+}
+QPushButton:enabled {
+         background: rgb(68, 69, 73);
+        color: white;
+}
+QPushButton:!enabled {
+         background: rgb(100, 100, 100);
+        color: white;
+}
+QPushButton:enabled:hover{
+         background: rgb(85, 85, 85);
+}
+QPushButton:enabled:pressed{
+        background: rgb(80, 80, 80);
+}
+
+QComboBox {
+        height: 25px;
+        border-radius: 4px;
+        border: 1px solid rgb(100, 100, 100);
+        background: white;
+}
+QComboBox:enabled {
+        color: rgb(85, 85, 85);
+}
+QComboBox:!enabled {
+        color: rgb(80, 80, 80);
+}
+
+QLabel {
+
+        background: rgbrgb(100, 100, 100);
+        color: rgb(85, 85, 85);
+        border-image:url(://Image/File/皮肤.png) 10 10 10 10;
+        border: 10px transparent;
+
+
+}
+
+

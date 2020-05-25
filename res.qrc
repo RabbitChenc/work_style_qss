@@ -1,0 +1,31 @@
+<RCC>
+    <qresource prefix="/">
+        <file>Image/btn2_pressed.png</file>
+        <file>Image/btn2_normal.png</file>
+        <file>Image/btn2_focus_pressed.png</file>
+        <file>Image/btn2_focused.png</file>
+        <file>Image/btn2_disable.png</file>
+        <file>Image/btn.png</file>
+        <file>Image/主页.png</file>
+        <file>Image/音乐.png</file>
+        <file>Image/信息.png</file>
+        <file>Image/喜欢.png</file>
+        <file>Image/时间.png</file>
+        <file>Image/设置.png</file>
+        <file>Image/日历.png</file>
+        <file>Image/麦克风.png</file>
+        <file>Image/垃圾桶.png</file>
+        <file>Image/更多.png</file>
+        <file>Image/个人.png</file>
+        <file>Image/个人(1).png</file>
+        <file>Image/006-prisoner.png</file>
+        <file>Image/File/open.jpg</file>
+        <file>Image/File/new.jpeg</file>
+        <file>Image/File/clo.png</file>
+        <file>Image/File/save.png</file>
+        <file>Image/File/皮肤.png</file>
+        <file>white.qss</file>
+        <file>black.qss</file>
+        <file>Image/info.png</file>
+    </qresource>
+</RCC>
